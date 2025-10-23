@@ -30,6 +30,8 @@ To use the theme copy paste one of the presets, or follow the instructions to cr
 
 **NOTE: Theme may not work when using reverse proxy**, check the bottom section of this readme for more info.
 
+**NOTE: As of Jellyfin version 10.11.0 Theme not work for admin dashboard**, it was deactivated for security reasons.
+
 <br />
 
 ## Single line presets
