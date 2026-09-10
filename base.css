@@ -36,11 +36,18 @@ div[data-role="controlgroup"] a[data-role="button"] {
 .layout-mobile .itemBackdrop {
     margin-top: 4rem;
 }
-
-/*Stop covers from being scrolled on desktop*/
+/*
 .layout-desktop .detailImageContainer .card {
     position: fixed !important;
     top: 10% !important;
+}
+*/
+
+/* Allow cover to scroll AND allow transforms for Jellyfin 12 onwards*/
+.layout-desktop .detailImageContainer .card {
+  position: relative !important;
+  top: 0 !important;
+  z-index: 5 !important;
 }
 .layout-mobile .detailImageContainer .card {
     position: absolute !important;
