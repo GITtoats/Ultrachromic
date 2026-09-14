@@ -23,8 +23,8 @@
     background: rgba(0,0,0,0) !important;
 }
 
-/* Remove the huge empty space above poster + text */
-.itemBackdrop {
+/* Remove the backdrop space on desktop only */
+.layout-desktop .itemBackdrop {
     display: none !important;
 }
 
@@ -35,7 +35,7 @@
 .layout-desktop .contentContainer,
 .layout-desktop .viewContainer,
 .layout-desktop .sectionContainer {
-    margin-top: 15vh !important;
+    margin-top: 22vh !important;
 }
 
 .layout-desktop .detailImageContainer .card {

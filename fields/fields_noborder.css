@@ -1,4 +1,12 @@
 /*No borders, background highlights*/
+.emby-input,
+.emby-textarea {
+  padding: .4em .55em !important;
+}
+.emby-select {
+   padding: 0 1.9em 0 .35em !important;
+}
+
 .infoBanner {
     background: rgba(var(--selection), 0.15) !important;
 }
