@@ -335,6 +335,10 @@ progress::-webkit-progress-value {
   background: rgba(var(--accent),0.75) !important;
 }
 
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, 0);
+}
+
 .transcodingProgress>div, 
 .itemProgressBarForeground {
   background-color: rgba(var(--accent),0.35);
